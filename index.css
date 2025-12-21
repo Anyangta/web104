@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -9,5 +11,6 @@ body{
 .contents{
     width: 1280px;
     height: 720px;
+    margin: 0 auto;
     background-color: rgb(50,50,50);
 }
