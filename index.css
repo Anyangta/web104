@@ -13,4 +13,5 @@ body{
     height: 720px;
     margin: 0 auto;
     background-color: rgb(50,50,50);
+    display: flex;
 }
