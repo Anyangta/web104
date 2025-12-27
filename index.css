@@ -51,3 +51,7 @@ body{
 .contents .contentsBox{
     display: flex;
 }
+
+.contents .contentsBox .navBox{
+    
+}
