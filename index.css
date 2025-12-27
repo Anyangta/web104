@@ -49,5 +49,5 @@ body{
 }
 
 .contents .contentsBox{
-    
+    display: flex;
 }
