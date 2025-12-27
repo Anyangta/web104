@@ -22,4 +22,28 @@ body{
     border-right: 2px solid white;
     display: flex;
     flex-direction: column;
+    color: #FFF;
+}
+
+.contents .titleBox .titleUpBox{
+    flex: 1;
+    display: flex;
+    font-style: italic;           
+    font-weight: bold;            
+    font-size: 30pt;              
+    line-height: 50px;            
+    font-family: "Times New Roman", sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.contents .titleBox .titleDownBox{
+    flex: 1;
+    display: flex;
+    font-style: normal;           
+    font-size: 10pt;              
+    font-family: "Verdana", sans-serif;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
 }
