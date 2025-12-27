@@ -50,8 +50,22 @@ body{
 
 .contents .contentsBox{
     display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .contents .contentsBox .navBox{
-    
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    width: 100%;
+    height: 120px;
+    border-bottom: 2px solid white;
+}
+
+.contents .contentsBox .navBox img{
+    width: 30px;
+    height: 30px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
