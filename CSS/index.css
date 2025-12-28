@@ -17,8 +17,8 @@ img {
 .contents {
   width: 1280px;
   height: 720px;
-  background-color: rgb(50, 50, 50);
   display: flex;
+  background-color: rgb(50, 50, 50);
   color: #FFF;
 }
 .contents .titleBox {
