@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
+
+.contents {
+  width: 1280px;
+  height: 720px;
+  background-color: rgb(50, 50, 50);
+  display: flex;
+  color: #FFF;
+}
+.contents .titleBox {
+  display: flex;
+  width: 280px;
+  height: 100%;
+  border-right: 2px solid white;
+  flex-direction: column;
+}
+.contents .titleBox > * {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.contents .titleBox .titleUpBox {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30pt;
+  line-height: 50px;
+  font-family: "Times New Roman", sans-serif;
+}
+.contents .titleBox .titleDownBox {
+  font-style: normal;
+  font-size: 10pt;
+  font-family: "Verdana", sans-serif;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+.contents .contentsBox {
+  display: flex;
+  flex-direction: column;
+}
+.contents .contentsBox > * {
+  display: flex;
+}
+.contents .contentsBox .navBox {
+  width: 100%;
+  height: 120px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 2px solid white;
+}
+.contents .contentsBox .navBox img {
+  width: 30px;
+  height: 30px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.contents .contentsBox .sectionBox {
+  width: 100%;
+  height: 600px;
+}
+.contents .contentsBox .sectionBox .article {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 100%;
+  opacity: 0.4;
+  padding: 70px 40px;
+}
+.contents .contentsBox .sectionBox .article p {
+  flex: 1;
+}
+.contents .contentsBox .sectionBox .article h1 {
+  width: -moz-max-content;
+  width: max-content;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid white;
+}
+.contents .contentsBox .sectionBox .article h3 {
+  padding: 15px 0px;
+}/*# sourceMappingURL=index.css.map */

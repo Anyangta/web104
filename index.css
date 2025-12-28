@@ -52,7 +52,6 @@ body{
 .contents .contentsBox{
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 
 .contents .contentsBox .navBox{
@@ -80,7 +79,6 @@ body{
 .contents .contentsBox .sectionBox .article{
     display: flex;
     flex-direction: column;
-    
     width: 250px;
     height: 100%;
     opacity: 0.4;
@@ -97,12 +95,12 @@ body{
 }
 
 .contents .contentsBox .sectionBox .article h3{
-    padding: 10px 0px;
+    padding: 15px 0px;
 }
 
 .contents .contentsBox .sectionBox .article h1{
     width: max-content;     
     padding-right: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     border-bottom: 2px solid white;
 }
